@@ -39,10 +39,12 @@ The project implementation was divided in 3 phases:
 Phase 1 : Dataset Generation
   * Dataset Collection
   * Dataset Preparation
+
 Phase 2 : Training and Deployment
   * Compose neural network architectures
   * Ping Pong phase with Dataset labelers
   * Fine tunning of the model
+
 Phase 3 : Validation
   * Analysis and benchmark Precision/Recall
   * Predictions of random images
