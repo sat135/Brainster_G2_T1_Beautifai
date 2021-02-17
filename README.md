@@ -66,7 +66,7 @@ No sky | 3791
 
 To solve this problem, we needed to try several image classifiers that classify one of four categories. To construct this classifier, we used pre-trained CNN. The best results are as follows:
 Model | Epochs | Batch Size |Test Accuracy
------------- | -------------
+------------ | ------------- | ------------- | -------------
 Resnet50 | 10 | 200 | 0.88272
 Resnet50 | 50 | 50 | 0.89429
 Resnet152 | 100| 20 | 0.89738
