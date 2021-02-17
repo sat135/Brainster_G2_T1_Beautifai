@@ -13,9 +13,9 @@ Team Members:
  * Description
  * How does it work?
  * The project implementation
-  * Phase 1 : Dataset creation
-  * Phase 2 : Training the model
-  * Phase 3 : Validation
+   * Phase 1 : Dataset creation
+   * Phase 2 : Training the model
+   * Phase 3 : Validation
  * Summary of results
 
 ## Description
