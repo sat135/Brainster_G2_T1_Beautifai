@@ -63,6 +63,8 @@ Night sky separated | 658
 Night sky not separated | 887
 No sky | 3791
 
+![GitHub graph](/images/graph.png)
+
 
 ### Phase 2: Training and Deployment
 
