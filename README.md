@@ -32,6 +32,36 @@ The model will be integrated in the application for further use.
 
 This model will find a use in recognizing and separating the sky from the rest of the objects on the photo. Once a picture is taken, the application by itself will recognize if there is a sky at all, and then to recognize if it is a day or night in order to identify if sky-algorithm shoud be offered as an option to the user to edit the sky.
 
+## The process
+
+The project implementation was divided in 3 phases:
+
+Phase 1 : Dataset Generation
+    * Dataset Collection
+    * Dataset Preparation
+Phase 2 : Training and Deployment
+    * Compose neural network architectures
+    * Ping Pong phase with Dataset labelers
+    * Fine tunning of the model
+Phase 3 : Validation
+    * Analysis and benchmark Precision/Recall
+    * Predictions of random images
+
+### Phase 1 : Dataset Generation
+
+In order to train a deep-learning model regarding requests, we needed an appropriate dataset with balanced distribution of images for the four above stated classes. 
+One of the challenges we met during this project was collecting the data. We decided to combine images from existing dataset previously used in similar MIT project and private photos from the team members. This approach was selected in oreder to have high diversity in the dataset since the time and resources of the team members were limited. 
+Data preparation consisted of labeling, renaming and resizing the collected dataset.
+The final dataset cosists of **8640** images with train - validation split of 85% - 15%:
+
+Class Name | Number of images
+------------ | -------------
+Daylight Sky | 3304
+Night sky separated | 658
+Night sky not separated | 887
+No sky | 3791
+
+
 
 to collect data and prepare custom dataset.
 
