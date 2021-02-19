@@ -68,9 +68,24 @@ No sky | 3791
 
 ### Phase 2: Training and Deployment
 
-To solve this problem, we needed to try several image classifiers that classify one of four categories. To construct this classifier, we used pre-trained CNN. The best results are as follows:
+To solve this problem, we needed to try several image classifiers that classify one of four categories:
+ * ResNet50
+ * ResNet101
+ * ResNet152
+ * Xception
+ * VGG16
+ * VGG19
+ * InceptionV3
+ * InceptionResNetV2
+ * DenseNet201
+ * DenseNet169
+
+To construct this classifier, we used pre-trained CNN. 
+
+Eventhough most of the validation accuracy were over 80%, the best performing model wer ResNet models, particulary ResNet101. The top 3 results are as follows:
 Model | Epochs | Batch Size |Test Accuracy
 ------------ | ------------- | ------------- | -------------
-Resnet50 | 10 | 200 | 0.88272
-Resnet50 | 50 | 50 | 0.89429
-Resnet152 | 100| 20 | 0.89738
+ResNet101 | 50 | 20 | 0.91133
+ResNet101 | 50 | 10 | 0.90825
+ResNet101 | 50 | 30 | 0.90748
+
