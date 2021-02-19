@@ -56,12 +56,12 @@ One of the challenges we met during this project was collecting the data. We dec
 Data preparation consisted of labeling, renaming and resizing the collected dataset.
 The final dataset cosists of **8640** images with train - validation split of 85% - 15%:
 
-Class Name | Number of images
+Class Name | Number of images | Example 1 | Example 3 | Example 3 | Example 4 | Example 5
 ------------ | -------------
-Daylight Sky | 3304
-Night sky separated | 658
-Night sky not separated | 887
-No sky | 3791
+Daylight Sky | 3304 | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg)
+Night sky separated | 658 | sdd | fsdsd | sdsd | sss | ddd
+Night sky not separated | 887 | sdd | fsdsd | sdsd | sss | ddd
+No sky | 3791 | sdd | fsdsd | sdsd | sss | ddd
 
 ![GitHub graph](/images/graph.png)
 
