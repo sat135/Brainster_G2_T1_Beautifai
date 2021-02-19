@@ -65,7 +65,7 @@ No sky | 3791 | ![GitHub image](Images/Primer/no_sky/no_sky_201.jpg) | ![GitHub 
 
 Distribution by class:
 
-![GitHub graph](/Images/Graphs/image%20(5).png)
+![GitHub graph]</Images/Graphs/image%20(5).png" width="400" height="790">
 
 
 ### Phase 2: Training and Deployment
@@ -85,9 +85,8 @@ To solve this problem, we needed to try several image classifiers that classify 
 To construct this classifier, we used pre-trained CNN. 
 
 Eventhough most of the validation accuracy were over 80%, the best performing model wer ResNet models, particulary ResNet101. The top 3 results are as follows:
-Model | Epochs | Batch Size |Test Accuracy
------------- | ------------- | ------------- | -------------
-ResNet101 | 50 | 20 | 0.91133
-ResNet101 | 50 | 15 | 0.90902
-ResNet101 | 50 | 10 | 0.90825
+Model | Test Accuracy
+------------ | -------------
+ResNet101 | 0.90902
+ResNet101 | 0.90825
 
