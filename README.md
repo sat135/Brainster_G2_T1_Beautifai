@@ -58,12 +58,14 @@ The final dataset cosists of **8640** images with train - validation split of 85
 
 Class Name | Number of images | Example 1 | Example 2 | Example 3 | Example 4 | Example 5
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Daylight Sky | 3304 | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg)
-Night sky separated | 658 | sdd | fsdsd | sdsd | sss | ddd
-Night sky not separated | 887 | sdd | fsdsd | sdsd | sss | ddd
-No sky | 3791 | sdd | fsdsd | sdsd | sss | ddd
+Daylight Sky | 3304 | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_108.jpg) | ![GitHub image](Images/Primer/Day/day_17.jpg) | ![GitHub image](Images/Primer/Day/day_19.jpg) | ![GitHub image](Images/Primer/Day/day_37.jpg)
+Night sky separated | 658 | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_11.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_133.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_42.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_66.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_87.jpg)
+Night sky not separated | 887 | ![GitHub image](Images/Primer/night_separated/night_separated_100.jpg) | ![GitHub image](Images/Primer/night_separated/night_separated_108.jpg) | ![GitHub image](Images/Primer/night_separated/night_separated_188.jpg) | ![GitHub image](Images/Primer/night_separated/night_separated_241.jpg) | ![GitHub image](Images/Primer/night_separated/night_separated_7.jpg)
+No sky | 3791 | ![GitHub image](Images/Primer/no_sky/no_sky_201.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_21.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_258.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_296.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_6.jpg)
 
-![GitHub graph](/images/graph.png)
+Distribution by class:
+
+![GitHub graph](/Images/Graphs/image%20(5).png)
 
 
 ### Phase 2: Training and Deployment
