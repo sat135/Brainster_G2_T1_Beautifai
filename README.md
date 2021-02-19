@@ -57,7 +57,7 @@ Data preparation consisted of labeling, renaming and resizing the collected data
 The final dataset cosists of **8640** images with train - validation split of 85% - 15%:
 
 Class Name | Number of images | Example 1 | Example 2 | Example 3 | Example 4 | Example 5
------------- | -------------
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
 Daylight Sky | 3304 | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_134.jpg)
 Night sky separated | 658 | sdd | fsdsd | sdsd | sss | ddd
 Night sky not separated | 887 | sdd | fsdsd | sdsd | sss | ddd
