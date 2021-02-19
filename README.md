@@ -86,6 +86,6 @@ Eventhough most of the validation accuracy were over 80%, the best performing mo
 Model | Epochs | Batch Size |Test Accuracy
 ------------ | ------------- | ------------- | -------------
 ResNet101 | 50 | 20 | 0.91133
+ResNet101 | 50 | 15 | 0.90902
 ResNet101 | 50 | 10 | 0.90825
-ResNet101 | 50 | 30 | 0.90748
 
