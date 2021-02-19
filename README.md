@@ -65,12 +65,12 @@ No sky | 3791 | ![GitHub image](Images/Primer/no_sky/no_sky_201.jpg) | ![GitHub 
 
 Distribution by class:
 
-![GitHub graph]</Images/Graphs/image%20(5).png" width="400" height="790">
+![GitHub graph](/Images/Graphs/image%20(5).png)
 
 
 ### Phase 2: Training and Deployment
 
-To solve this problem, we needed to try several image classifiers that classify one of four categories:
+To solve this problem, we have tried several image classifiers that classify one of four categories. To construct this classifier, we used pre-trained CNN:
  * ResNet50
  * ResNet101
  * ResNet152
@@ -82,11 +82,13 @@ To solve this problem, we needed to try several image classifiers that classify 
  * DenseNet201
  * DenseNet169
 
-To construct this classifier, we used pre-trained CNN. 
 
-Eventhough most of the validation accuracy were over 80%, the best performing model wer ResNet models, particulary ResNet101. The top 3 results are as follows:
-Model | Test Accuracy
+Eventhough most of the validation accuracy were over 80%, the best performing model were ResNet models, particulary ResNet101. The top results are as follows:
+Model | Validation Accuracy
 ------------ | -------------
 ResNet101 | 0.90902
 ResNet101 | 0.90825
 
+Best overall results were achieved with transfer-learning using pre-trained ResNet101 an re-train it on our data in ImageNet - 50 epoch, Batch size - 15; Accuracy 90,9%.
+
+### Phase 3: Validation
