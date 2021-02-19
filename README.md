@@ -92,3 +92,25 @@ ResNet101 | 0.90825
 Best overall results were achieved with transfer-learning using pre-trained ResNet101 an re-train it on our data in ImageNet - 50 epoch, Batch size - 15; Accuracy 90,9%.
 
 ### Phase 3: Validation
+
+Validation of the model results was done on Valiadtion set and on about 30 new images. 
+
+Evaluation matix:
+
+Class Name | Precision | Recall | f1-score
+------------ | ------------- | ------------- | ------------- 
+Daylight Sky | 3304  | |
+Night sky separated | 658 | |
+Night sky not separated | 887 | |
+No sky | 3791 | |
+
+Confusion matrix:
+
+Missclasified examples:
+
+Class Name | Number of images | Example 1 | Example 2 | Example 3 | Example 4 | Example 5
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
+Daylight Sky | 3304 | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_108.jpg) | ![GitHub image](Images/Primer/Day/day_17.jpg) | ![GitHub image](Images/Primer/Day/day_19.jpg) | ![GitHub image](Images/Primer/Day/day_37.jpg)
+Night sky separated | 658 | ![GitHub image](Images/Primer/night_separeted/night_separated_100.jpg) | ![GitHub image](Images/Primer/night_separeted/night_separated_108.jpg)| ![GitHub image](Images/Primer/night_separeted/night_separated_188.jpg) | ![GitHub image](Images/Primer/night_separeted/night_separated_241.jpg) | ![GitHub image](Images/Primer/night_separeted/night_separated_7.jpg)
+Night sky not separated | 887 | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_11.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_133.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_42.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_140.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_87.jpg)
+No sky | 3791 | ![GitHub image](Images/Primer/no_sky/no_sky_201.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_21.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_258.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_296.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_6.jpg)
