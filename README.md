@@ -110,12 +110,12 @@ Confusion matrix:
 
 Missclasified examples:
 
-Class Name | Number of images | Example 1 | Example 2 | Example 3 | Example 4 | Example 5
------------- | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
-Daylight Sky | 3304 | ![GitHub image](Images/Primer/Day/day_134.jpg) | ![GitHub image](Images/Primer/Day/day_108.jpg) | ![GitHub image](Images/Primer/Day/day_17.jpg) | ![GitHub image](Images/Primer/Day/day_19.jpg) | ![GitHub image](Images/Primer/Day/day_37.jpg)
-Night sky separated | 658 | ![GitHub image](Images/Primer/night_separeted/night_separated_100.jpg) | ![GitHub image](Images/Primer/night_separeted/night_separated_108.jpg)| ![GitHub image](Images/Primer/night_separeted/night_separated_188.jpg) | ![GitHub image](Images/Primer/night_separeted/night_separated_241.jpg) | ![GitHub image](Images/Primer/night_separeted/night_separated_7.jpg)
-Night sky not separated | 887 | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_11.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_133.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_42.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_140.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_87.jpg)
-No sky | 3791 | ![GitHub image](Images/Primer/no_sky/no_sky_201.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_21.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_258.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_296.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_6.jpg)
+Class Name | Number of missed classified | Example 1 | Example 2 | Example 3 
+------------ | ------------- | ------------- | ------------- | ------------- 
+Daylight Sky | 3304 | ![GitHub image](Images/Missed/Day/day_458.jpg) | ![GitHub image](Images/Missed/Day/day_463.jpg) | ![GitHub image](Images/Missed/Day/day_1215.jpg)
+Night sky separated | 658 | ![GitHub image](Images/Missed/N_sep/night_separated_123.jpg) | ![GitHub image](Images/Missed/N_sep/night_separated_203.jpg)| ![GitHub image](Images/Missed/N_sep/night_separated_331.jpg) 
+Night sky not separated | 887 | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_2.jpg) | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_204.jpg) | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_205.jpg) 
+No sky | 3791 | ![GitHub image](Images/Missed/No_sky/no_sky_736.jpg) | ![GitHub image](Images/Missed/No_sky/no_sky_1448.jpg) | ![GitHub image](Images/Missed/No_sky/no_sky_1623.jpg) 
 
 
 
