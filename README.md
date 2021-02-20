@@ -54,7 +54,7 @@ Phase 3 : Validation
 In order to train a deep-learning model regarding requests, we needed an appropriate dataset with balanced distribution of images for the four above stated classes. 
 One of the challenges we met during this project was collecting the data. We decided to combine images from existing dataset previously used in similar MIT project and private photos from the team members. This approach was selected in oreder to have high diversity in the dataset since the time and resources of the team members were limited. 
 Data preparation consisted of labeling, renaming and resizing the collected dataset.
-The final dataset ([here](https://drive.google.com/drive/folders/14aPhB-LHJTDZethUfNkBkM80b1Cm5fAE?usp=sharing)) cosists of **8640** images with train - validation split of 85% - 15%:
+The final dataset (available [here](https://drive.google.com/drive/folders/14aPhB-LHJTDZethUfNkBkM80b1Cm5fAE?usp=sharing)) cosists of **8640** images with train - validation split of 85% - 15%:
 
 Class Name | Number of images | Example 1 | Example 2 | Example 3 | Example 4 | Example 5
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
@@ -63,7 +63,7 @@ Night sky separated | 658 | ![GitHub image](Images/Primer/night_separeted/night_
 Night sky not separated | 887 | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_11.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_133.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_42.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_140.jpg) | ![GitHub image](Images/Primer/night_not_separated/night_not_separated_87.jpg)
 No sky | 3791 | ![GitHub image](Images/Primer/no_sky/no_sky_201.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_21.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_258.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_296.jpg) | ![GitHub image](Images/Primer/no_sky/no_sky_6.jpg)
 
-Distribution by class:
+Set distribution by class is shown below:
 
 ![GitHub graph](/Images/Graphs/image%20(5).png)
 
@@ -82,20 +82,13 @@ To solve this problem, we have tried several image classifiers that classify one
  * DenseNet201
  * DenseNet169
 
-
-Eventhough most of the validation accuracy were over 80%, the best performing model were ResNet models, particulary ResNet101. The top results are as follows:
-Model | Validation Accuracy
------------- | -------------
-ResNet101 | 0.90902
-ResNet101 | 0.90825
-
-Best overall results were achieved with transfer-learning using pre-trained ResNet101 an re-train it on our data in ImageNet - 50 epoch, Batch size - 15; Accuracy 90,9%.
+Eventhough most of the validation accuracy were over 80%, the best performing models were ResNet models, particulary ResNet101. The best result based on validation accuracy is  **90.825%** which was achieved with transfer-learning using pre-trained ResNet101, with no re-trained layers, using 50 epoch, Batch size of 15 and added dropout and batch normalization layers in order to prevent overfitting.
 
 ### Phase 3: Validation
 
-Validation of the model results was done on Valiadtion set and on about 30 new images. 
+Validation of the model results was done on Valiadtion set and on about 30 new images. Performace of the model, based on validation is represented trough Evaluation matrix and Confusion matrix below:
 
-Evaluation matix:
+**Evaluation matix**
 
 Class Name | Precision | Recall | f1-score
 ------------ | ------------- | ------------- | ------------- 
@@ -104,11 +97,11 @@ Night sky separated | 0.76 | 0.66 | 0.70
 Night sky not separated | 0.79 | 0.80 | 0.80
 No sky | 0.93 | 0.93 | 0.93
 
-Confusion matrix:
+**Confusion matrix**
 
 ![GitHub graph](/Images/Graphs/Confusion_matrix.png)
 
-Missclasified examples:
+Out of missclasified images from validation set, here are 3 by each defined class:
 
 Class Name | Number of missed classified | Predicted Sky | Predicted Night sky | Predicted Night No_sky | Predicted No_sky  
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
@@ -117,6 +110,13 @@ Night sky separated | 34 | ![GitHub image](Images/Missed/N_sep/night_separated_1
 Night sky not separated | 26 | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_532.jpg) | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_2.jpg) | | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_452.jpg) 
 No sky | 40 | ![GitHub image](Images/Missed/No_sky/no_sky_736.jpg) | ![GitHub image](Images/Missed/No_sky/no_sky_1623.jpg) | ![GitHub image](Images/Missed/No_sky/no_sky_1448.jpg)  | 
 
+Prediction was done on images not included in the validation set, as well. The performance results on those images were extraordinary and exceeded our expectations:
 
+Class Name | Number of predisted items | Predicted Sky | Predicted Night sky | Predicted Night No_sky | Predicted No_sky  
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
+Daylight Sky | 15 | 15 | 0 | 0 | 0
+Night sky separated | 7 | 0 | 7 | 0 | 0 
+Night sky not separated | 6 | 0 | 0 | 6 | 0 
+No sky | 20 | 1 | 0 | 0 | 19
 
 ## Summary of results
