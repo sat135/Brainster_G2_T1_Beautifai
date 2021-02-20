@@ -112,9 +112,9 @@ No sky | 40 | ![GitHub image](Images/Missed/No_sky/no_sky_736.jpg) | ![GitHub im
 
 Regarding the model performance, it would be fair to add that some of the images were complicated to label even for us. Some examples of those images you can find in the table below:
 
-Classified | Sky | Night sky | Night No_sky | No_sky  
------------- | ------------- | ------------- | ------------- | ------------- 
- | ![GitHub image](Images/Label missed/Day/day_1215.jpg)| (Images/Label missed/N_sep/night_separated_21.jpg) | (Images/Label missed/N_not_sep/night_not_separated_205.jpg) | (Images/Label missed/No_sky/no_sky_3785.jpg)
+Classified: Sky | Classified: Night sky | Classified: Night No_sky | Classified: No_sky  
+------------- | ------------- | ------------- | ------------- 
+![GitHub image](Images/Label missed/Day/day_1215.jpg)| ![GitHub image](Images/Label missed/N_sep/night_separated_21.jpg) | ![GitHub image](Images/Label missed/N_not_sep/night_not_separated_205.jpg) | ![GitHub image](Images/Label missed/No_sky/no_sky_3785.jpg)
 
 The prediction was done on images not included in the validation set, as well. The performance results on those images were extraordinary and exceeded our expectations:
 
