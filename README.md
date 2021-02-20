@@ -110,12 +110,12 @@ Confusion matrix:
 
 Missclasified examples:
 
-Class Name | Number of missed classified | Example 1 | Example 2 | Example 3 
------------- | ------------- | ------------- | ------------- | ------------- 
-Daylight Sky | 3304 | ![GitHub image](Images/Missed/Day/day_458.jpg) | ![GitHub image](Images/Missed/Day/day_463.jpg) | ![GitHub image](Images/Missed/Day/day_1215.jpg)
-Night sky separated | 658 | ![GitHub image](Images/Missed/N_sep/night_separated_123.jpg) | ![GitHub image](Images/Missed/N_sep/night_separated_203.jpg)| ![GitHub image](Images/Missed/N_sep/night_separated_331.jpg) 
-Night sky not separated | 887 | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_2.jpg) | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_204.jpg) | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_205.jpg) 
-No sky | 3791 | ![GitHub image](Images/Missed/No_sky/no_sky_736.jpg) | ![GitHub image](Images/Missed/No_sky/no_sky_1448.jpg) | ![GitHub image](Images/Missed/No_sky/no_sky_1623.jpg) 
+Class Name | Number of missed classified | Predicted Sky | Predicted Night sky | Predicted Night No_sky | Predicted No_sky  
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
+Daylight Sky | 35 | | ![GitHub image](Images/Missed/Day/day_2983.jpg)| ![GitHub image](Images/Missed/Day/day_458.jpg) ![GitHub image](Images/Missed/Day/day_463.jpg) |
+Night sky separated | 34 | ![GitHub image](Images/Missed/N_sep/night_separated_123.jpg) | | ![GitHub image](Images/Missed/N_sep/night_separated_230.jpg) | ![GitHub image](Images/Missed/N_sep/night_separated_331.jpg) 
+Night sky not separated | 26 | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_204.jpg) | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_2.jpg) | | ![GitHub image](Images/Missed/N_not_sep/night_not_separated_205.jpg) 
+No sky | 40 | ![GitHub image](Images/Missed/No_sky/no_sky_736.jpg) | ![GitHub image](Images/Missed/No_sky/no_sky_1623.jpg) | ![GitHub image](Images/Missed/No_sky/no_sky_1448.jpg)  | 
 
 
 
