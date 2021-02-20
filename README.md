@@ -40,7 +40,7 @@ Phase 1 : Dataset Generation
   * Dataset Collection
   * Dataset Preparation
 
-Phase 2 : Training and Deployment
+Phase 2 : Training the model
   * Compose neural network architectures
   * Ping Pong phase with Dataset labelers
   * Fine tunning of the model
@@ -54,7 +54,7 @@ Phase 3 : Validation
 In order to train a deep-learning model regarding requests, we needed an appropriate dataset with balanced distribution of images for the four above stated classes. 
 One of the challenges we met during this project was collecting the data. We decided to combine images from existing dataset previously used in similar MIT project and private photos from the team members. This approach was selected in oreder to have high diversity in the dataset since the time and resources of the team members were limited. 
 Data preparation consisted of labeling, renaming and resizing the collected dataset.
-The final dataset cosists of **8640** images with train - validation split of 85% - 15%:
+The final dataset ([here](https://drive.google.com/drive/folders/14aPhB-LHJTDZethUfNkBkM80b1Cm5fAE?usp=sharing)) cosists of **8640** images with train - validation split of 85% - 15%:
 
 Class Name | Number of images | Example 1 | Example 2 | Example 3 | Example 4 | Example 5
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- | -------------
