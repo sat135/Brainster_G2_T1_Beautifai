@@ -99,12 +99,14 @@ Evaluation matix:
 
 Class Name | Precision | Recall | f1-score
 ------------ | ------------- | ------------- | ------------- 
-Daylight Sky | 3304  | |
-Night sky separated | 658 | |
-Night sky not separated | 887 | |
-No sky | 3791 | |
+Daylight Sky | 0.91 | 0.93 | 0.92
+Night sky separated | 0.76 | 0.66 | 0.70
+Night sky not separated | 0.79 | 0.80 | 0.80
+No sky | 0.93 | 0.93 | 0.93
 
 Confusion matrix:
+
+![GitHub graph](/Images/Graphs/Confusion_matrix.png)
 
 Missclasified examples:
 
