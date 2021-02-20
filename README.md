@@ -28,7 +28,7 @@ Beautif.ai is an ios mobile application designed to edit and enhance pictures on
 
 The model will be integrated in the application for further use.
 
-## How does it work?
+## How does it work? 
 
 This model will find a use in recognizing and separating the sky from the rest of the objects on the photo. Once a picture is taken, the application by itself will recognize if there is a sky at all, and then to recognize if it is a day or night in order to identify if sky-algorithm shoud be offered as an option to the user to edit the sky.
 
