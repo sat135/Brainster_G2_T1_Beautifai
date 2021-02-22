@@ -82,7 +82,7 @@ To solve this problem, we have tried several image classifiers that classify one
  * DenseNet201
  * DenseNet169
 
-Even though most of the validation accuracy was over 80%, the best performing models were ResNet models, particularly ResNet101. The best result based on validation accuracy is  **90.825%** which was achieved with transfer-learning using pre-trained ResNet101, with no re-trained layers, using 50 epoch, Batch size of 15, and added dropout and batch normalization layers in order to prevent overfitting.
+Even though most of the validation accuracy was over 80%, the best performing models were ResNet models, particularly ResNet101. The best result based on validation accuracy is  **90.825%** which was achieved with transfer-learning using pre-trained ResNet101, with no re-trained layers, using 50 epoch, Batch size of 15, and added dropout and batch normalization layers in order to prevent overfitting (available [here](https://drive.google.com/drive/folders/1KxT-R_9ulmCX2P2GAVTQXSdlZktIZsTF?usp=sharing)).
 
 ### Phase 3: Validation
 
@@ -118,7 +118,7 @@ Classified: Sky | Classified: Night sky | Classified: Night No_sky | Classified:
 
 The prediction was done on images not included in the validation set, as well. The performance results on those images were extraordinary and exceeded our expectations:
 
-Class Name | Number of predisted items | Predicted Sky | Predicted Night sky | Predicted Night No_sky | Predicted No_sky  
+Class Name | Number of predicted items | Predicted Sky | Predicted Night sky | Predicted Night No_sky | Predicted No_sky  
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
 Daylight Sky | 15 | 15 | 0 | 0 | 0
 Night sky separated | 7 | 0 | 7 | 0 | 0 
