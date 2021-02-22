@@ -118,7 +118,7 @@ Classified: Sky | Classified: Night sky | Classified: Night No_sky | Classified:
 
 The prediction was done on images not included in the validation set, as well. The performance results on those images were extraordinary and exceeded our expectations:
 
-Class Name | Number of predicted items | Predicted Sky | Predicted Night sky | Predicted Night No_sky | Predicted No_sky  
+Class Name | Total | Predicted Sky | Predicted Night sky | Predicted Night No_sky | Predicted No_sky  
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
 Daylight Sky | 13 | 13 | 0 | 0 | 0
 Night sky separated | 5 | 0 | 5 | 0 | 0 
