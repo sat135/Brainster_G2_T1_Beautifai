@@ -17,7 +17,7 @@ Team Members:
  * [Description](https://github.com/sat135/Brainster_G2_T1_Beautifai#description)
  * [How does it work?](https://github.com/sat135/Brainster_G2_T1_Beautifai#how-does-it-work)
  * [The process](https://github.com/sat135/Brainster_G2_T1_Beautifai#the-process)
-   * [Phase 1: Dataset creation](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-1-dataset-generation)
+   * [Phase 1: Dataset generation](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-1-dataset-generation)
    * [Phase 2: Training the model](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-2-training-the-model)
    * [Phase 3: Validation](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-3-validation)
    * [Phase 4: Deployment](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-4-deployment)
