@@ -1,4 +1,4 @@
-# Brainster Final Project: 
+# Project Beautif.ai Image Classification
 
 ## Group 2 - Team 1
 Team Members:
@@ -128,14 +128,21 @@ No sky | 16 | 0 | 1 | 0 | 15
 ## Summary of results
 
 Going thoroughly through the phases we strived to get more appropriate data, label the classes correctly, and in order to find the best model which will achieve the best results required by the client, we needed to test more approaches and ML techniques to overcome the challenges we faced.
+
 We succeed to decrease the manual work in Phase 1 - Dataset Generation, where we needed to collect at least 7000 pictures. We were motivated by the fact that we had too little time and managed to use a combination of manual upload of personal photos and we used an existing dataset previously used in similar MIT project which we found very handy and useful. We can proudly say that we had collected 8640 images, that respectively were split into train and validation datasets with 85-15 ratio, and therefore labeled as Sky, No Sky, Night Sky, Night No Sky. The first client’s requirement was to separate 3 classes – Sky, Night Sky and No Sky – but in the defining the project we decided that adding another class that will differentiate if the sky is well separated (or not) in the photo composition will give greater value of the model’s further implementation.
+
 Another challenge we faced was to choose and build the right neural network architecture where we needed to implement all of our gained knowledge during the academy. Choosing a pretrained CNN was already proven best practice, and here we tried 10 models during our process.
 The network architecture was enhanced with Batch Normalization as we also planned to accelerate the training process, and we used Drop Out (0.3) to make sure that the network becomes less sensitive to the specific weights of neurons. In this way we avoided the possibility to overfit the training data.
 Knowing the fact that this model's business use will be found in everyday usage, where people are taking pictures amateurly with their mobile phone as a hobby, using different angles where the sky will be included in the photo composition, we decided to use few augmentation techniques (rotation range, width shift range, zoom range) to introduce variability and empower the model to predict correctly. 
+
 ResNet101 has proven itself as the best performing pre-trained CNN model where we achieved 90.8% validation accuracy, although with the other models we used performed right with validation accuracy over 80%. The winning combination that performed the best while training the network was with 50 epochs through the dataset comprised of batches with size of 15 training samples. We achieved high precision, recall and f1- score for Sky and No Sky class, and a bit lower for Night classes (Night Sky and Night No Sky). The confusion matrix we set aside had informed us that the classifier performed excellent with exception of few errors when it comes to classify pictures from Day and No Sky class.
+
 Finally, we validated 38 prediction examples that all have been predicted with the correct class and having very high level of softmax score probability, as well as very fast prediction time of only 0.124 sec.
+
 Eventhough we are very satisfied with the results and the predictions, of course there is room for improvement. In order to do that we propose some or several of the following:
  * more precise definition of the classes,
- * increase images in the Train and Validation set, 
- * especially in the classes which have fewer elements,
+ * increase images in the Train and Validation set, especially in the classes which have fewer elements,
  * generate some synthetic images.
+
+
+# Special thanks for all the support to our mentor Kiril Cvetkov.
