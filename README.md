@@ -140,7 +140,7 @@ No sky | 16 | 0 | 1 | 0 | 15
 
 The model was used in real life application Beautif.ai Demo in order predict class of random images, with option image to be browsed or Drag-and-Drop. Some examples of the predictions:
 
-   |   |   |   
+  Demo1 | Demo2  | Demo3  | Demo4  
 ------------ | ------------- | ------------- | ------------- 
 ![GitHub image](Images/Demo/image1.png) | ![GitHub image](Images/Demo/image2.png) | ![GitHub image](Images/Demo/image3.png) | ![GitHub image](Images/Demo/image4.png) 
 ![GitHub image](Images/Demo/image5.png) | ![GitHub image](Images/Demo/image6.png) | ![GitHub image](Images/Demo/image7.png) | ![GitHub image](Images/Demo/image8.png) 
