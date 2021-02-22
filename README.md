@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/Images/Logo/malo%20logo.png" />
+  <img src="/Images/Logo/logo1.png" />
 </p>
 
 # Project Beautif.ai Image Classification
