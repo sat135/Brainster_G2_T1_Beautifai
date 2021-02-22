@@ -123,7 +123,7 @@ Class Name | Number of predicted items | Predicted Sky | Predicted Night sky | P
 Daylight Sky | 13 | 13 | 0 | 0 | 0
 Night sky separated | 5 | 0 | 5 | 0 | 0 
 Night sky not separated | 5 | 0 | 0 | 5 | 0 
-No sky | 16 | 1 | 0 | 0 | 15
+No sky | 16 | 0 | 1 | 0 | 15
 
 ## Summary of results
 
