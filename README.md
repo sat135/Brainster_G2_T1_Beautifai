@@ -120,10 +120,10 @@ The prediction was done on images not included in the validation set, as well. T
 
 Class Name | Number of predicted items | Predicted Sky | Predicted Night sky | Predicted Night No_sky | Predicted No_sky  
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
-Daylight Sky | 15 | 15 | 0 | 0 | 0
-Night sky separated | 7 | 0 | 7 | 0 | 0 
-Night sky not separated | 6 | 0 | 0 | 6 | 0 
-No sky | 20 | 1 | 0 | 0 | 19
+Daylight Sky | 13 | 13 | 0 | 0 | 0
+Night sky separated | 5 | 0 | 5 | 0 | 0 
+Night sky not separated | 5 | 0 | 0 | 5 | 0 
+No sky | 16 | 1 | 0 | 0 | 15
 
 ## Summary of results
 
