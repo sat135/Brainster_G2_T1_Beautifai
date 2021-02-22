@@ -11,12 +11,12 @@ Team Members:
 # Project Title: Beautif.ai
 
  * [Description](https://github.com/sat135/Brainster_G2_T1_Beautifai#description)
- * How does it work?
- * The process
+ * [How does it work?](https://github.com/sat135/Brainster_G2_T1_Beautifai#how-does-it-work)
+ * [The process](https://github.com/sat135/Brainster_G2_T1_Beautifai#the-process)
    * Phase 1: Dataset creation
    * Phase 2: Training the model
    * Phase 3: Validation
- * Summary of results
+ * [Summary of results](https://github.com/sat135/Brainster_G2_T1_Beautifai#summary-of-results)
 
 ## Description
 
