@@ -92,10 +92,10 @@ Validation of the model results was done on the Validation set and on about 30 n
 
 Class Name | Precision | Recall | f1-score
 ------------ | ------------- | ------------- | ------------- 
-Daylight Sky | 0.91 | 0.93 | 0.92
-Night sky separated | 0.76 | 0.66 | 0.70
-Night sky not separated | 0.79 | 0.80 | 0.80
-No sky | 0.93 | 0.93 | 0.93
+Daylight Sky | 0.92 | 0.94 | 0.93
+Night sky separated | 0.82 | 0.87 | 0.84
+Night sky not separated | 0.80 | 0.68 | 0.73
+No sky | 0.94 | 0.93 | 0.94
 
 **Confusion matrix**
 
