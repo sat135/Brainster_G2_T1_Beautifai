@@ -16,6 +16,7 @@ Team Members:
    * [Phase 1: Dataset creation](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-1-dataset-generation)
    * [Phase 2: Training the model](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-2-training-the-model)
    * [Phase 3: Validation](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-3-validation)
+   * [Phase 4: Deployment](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-4-deployment)
  * [Summary of results](https://github.com/sat135/Brainster_G2_T1_Beautifai#summary-of-results)
 
 ## Description
@@ -48,6 +49,9 @@ Phase 2: Training the model
 Phase 3: Validation
   * Analysis and benchmark Precision/Recall
   * Predictions of random images
+
+Phase 4: Deployment
+  * Real-life application
 
 ### Phase 1: Dataset Generation
 
@@ -124,6 +128,12 @@ Daylight Sky | 13 | 13 | 0 | 0 | 0
 Night sky separated | 5 | 0 | 5 | 0 | 0 
 Night sky not separated | 5 | 0 | 0 | 5 | 0 
 No sky | 16 | 0 | 1 | 0 | 15
+
+### Phase 4: Deployment
+
+The model was used in real life application Beautif.ai Demo in order predict class of random images, with option image to be browsed or Drag-and-Drop. Some examples of the predictions:
+
+
 
 ## Summary of results
 
