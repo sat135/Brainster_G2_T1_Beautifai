@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="/Images/Logo/malo%20logo.png" />
+</p>
+
 # Project Beautif.ai Image Classification
 
 ## Group 2 - Team 1
@@ -69,8 +73,9 @@ No sky | 3791 | ![GitHub image](Images/Primer/no_sky/no_sky_201.jpg) | ![GitHub 
 
 Set distribution by class is shown below:
 
-![GitHub graph](/Images/Graphs/image%20(5).png)
-
+<p align="center">
+  <img src="/Images/Graphs/image%20(5).png" />
+</p>
 
 ### Phase 2: Training the model
 
@@ -103,7 +108,9 @@ No sky | 0.94 | 0.93 | 0.94
 
 **Confusion matrix**
 
-![GitHub graph](/Images/Graphs/Confusion_matrix.png)
+<p align="center">
+  <img src="/Images/Graphs/Confusion_matrix.png" />
+</p>
 
 Out of misclassified images from the Validation set, here are 3 by each defined class:
 
