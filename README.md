@@ -6,11 +6,11 @@
 
 ## Group 2 - Team 1
 Team Members:
-* Jasmina Lavchanska - Nikolovska ( Team Leader )
-* Dimitri Kjososki
-* Ivica Todorovski
-* Tina Stefanovska
-* Polad Emin
+* [Jasmina Lavchanska - Nikolovska ( Team Leader )](https://github.com/jasminalavcanskanikolovski)
+* [Dimitri Kjososki](https://github.com/sat135)
+* [Ivica Todorovski](https://github.com/IvicaTodorovski)
+* [Tina Stefanovska](https://github.com/tinastefanovska)
+* [Polad Emin](https://github.com/polademin)
 
 # Project Title: Beautif.ai
 
