@@ -10,7 +10,7 @@ Team Members:
 
 # Project Title: Beautif.ai
 
- * Description
+ * [Description](https://github.com/sat135/Brainster_G2_T1_Beautifai#description)
  * How does it work?
  * The process
    * Phase 1: Dataset creation
