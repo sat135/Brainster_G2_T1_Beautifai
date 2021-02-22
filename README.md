@@ -13,9 +13,9 @@ Team Members:
  * [Description](https://github.com/sat135/Brainster_G2_T1_Beautifai#description)
  * [How does it work?](https://github.com/sat135/Brainster_G2_T1_Beautifai#how-does-it-work)
  * [The process](https://github.com/sat135/Brainster_G2_T1_Beautifai#the-process)
-   * Phase 1: Dataset creation
-   * Phase 2: Training the model
-   * Phase 3: Validation
+   * [Phase 1: Dataset creation](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-1-dataset-generation)
+   * [Phase 2: Training the model](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-2-training-the-model)
+   * [Phase 3: Validation](https://github.com/sat135/Brainster_G2_T1_Beautifai#phase-3-validation)
  * [Summary of results](https://github.com/sat135/Brainster_G2_T1_Beautifai#summary-of-results)
 
 ## Description
@@ -68,7 +68,7 @@ Set distribution by class is shown below:
 ![GitHub graph](/Images/Graphs/image%20(5).png)
 
 
-### Phase 2: Training and Deployment
+### Phase 2: Training the model
 
 To solve this problem, we have tried several image classifiers that classify one of four categories. To construct this classifier, we used pre-trained CNN:
  * ResNet50
