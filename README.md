@@ -162,4 +162,4 @@ Eventhough we are very satisfied with the results and the predictions, of course
  * generate some synthetic images.
 
 
-# Special thanks for all the support to our mentor Kiril Cvetkov.
+# Special thanks for all the support to our mentor [Kiril Cvetkov](https://github.com/kirilcvetkov92).
