@@ -39,7 +39,7 @@ This model will find use in recognizing and separating the sky from the rest of 
 
 ## The process
 
-The project implementation was divided into 3 phases:
+The project implementation was divided into 4 phases:
 
 Phase 1: Dataset Generation
   * Dataset Collection
